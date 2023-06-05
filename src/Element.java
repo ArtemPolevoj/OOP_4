@@ -1,11 +1,5 @@
 public class Element<T> {
-    T obj;
-
-    public Element(T obj) {
-        this.obj = obj;
-    }
-
-    public void printElement() {
+    public void printElement(T obj) {
         System.out.println(obj + " - " + obj.getClass());
     }
 
