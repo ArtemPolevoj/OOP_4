@@ -19,5 +19,9 @@ public class Main {
         }
         new MyArray<Integer>().printArray(arrInt);
         new MyArray<String>().printArray(arrStr);
+
+        System.out.println(new MyMax<Integer>().getMax(10, 5));
+        System.out.println(new MyMax<Double>().getMax(20.6, 50.2));
+        System.out.println(new MyMax<String>().getMax("str", "string"));
     }
 }
